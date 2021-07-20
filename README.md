@@ -15,7 +15,8 @@ It shows an error message when Name is not inserted
 <img width="915" alt="Screenshot 2021-07-20 at 16 27 59" src="https://user-images.githubusercontent.com/1476561/126343720-15e350fd-2a8d-4e2e-84ac-3666bffdac8e.png">
 
 
-Try and nest `name` under `foo`. We use the nested RFF syntax `<LabeledTextField name="foo.name" label="Name" placeholder="Name" />`
+Try and nest `name` under `foo`https://github.com/frankiesardo/rff-nested-example/commit/1e72a6e9bd8342e5463ef24262e890f8951064ca
+We use the nested RFF syntax `<LabeledTextField name="foo.name" label="Name" placeholder="Name" />`
 We expected it to work, but it shows nothing. The validate function correctly returns `errors: {foo: "Required"}` but we see nothing in the form
 
 <img width="1429" alt="Screenshot 2021-07-20 at 16 30 42" src="https://user-images.githubusercontent.com/1476561/126343978-4f9017be-885d-471d-b8b0-a3500dcc0da8.png">
